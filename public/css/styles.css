@@ -132,7 +132,7 @@ article:hover{
 .fas {
     transition: 3s;
 }
-.fas:hover{
+main .fas:hover{
     transform: rotateZ(-90deg);
 }
 
@@ -208,11 +208,20 @@ footer{
 footer i{
     color:#0022AA;
     margin-left: 45%;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: 3ml;
+}
+
+footer i:hover{
+    color:#39b54a
 }
 
 footer h4, footer p{
     text-align: center;
+    margin: 10px
 }
+
 
 footer h6{
     margin-top: 10px; 
